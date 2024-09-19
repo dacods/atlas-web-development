@@ -51,7 +51,6 @@ header h1 {
     font-size: 120px;
     line-height: 150px;
     color: #FFFFFF;
-    text-align: center;
     font-family: SourceSansPro;
 }
 
@@ -66,7 +65,7 @@ header h1 {
     font-weight: 700;
     font-size: 16px;
     text-align: center;
-    
+    white-space: nowrap;
 }
 
 header button {
@@ -135,5 +134,42 @@ header span {
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+    color: #FFFFFF;
+}
+
+/* Testimonial Section */
+
+.quote {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    top: 1093px;
+    left: -1px;
+    background-color: #C271FF;
+}
+
+.quote img {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 114px;
+    left: 259px;
+    border: none;
+    border-radius: 90px;
+}
+
+.quote blockquote {
+    width: 730px;
+    height: 158px;
+    top: 110px;
+    left: -1px;
+}
+
+.block-quote {
+    width: 730px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
     color: #FFFFFF;
 }
